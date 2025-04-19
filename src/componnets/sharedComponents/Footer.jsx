@@ -16,7 +16,7 @@ const Footer = () => {
         <p  className="font-bold mb-4">Subscribe</p >
         <p className="mb-4" >Get 10% off your first order</p >
         <div className="w-[215px] flex border-2 gap-1 border-white p-2 text-white items-center">
-            <input type="text"  placeholder="Enter your email" className="outline-none w-full bg-transparent"/>
+            <input type="text"  placeholder="Enter your email" className="outline-none w-full bg-transparent mb-8"/>
             <img src={sendbtn} alt="" width={20}/>
         </div>
 
@@ -27,7 +27,7 @@ const Footer = () => {
         <li className=" mb-1">111 Bijay sarani Dhaka,</li>
         <li className=" mb-4">DH 1515, Bangladesh.</li>
         <li className=" mb-4">exclusive@gmail.com</li>
-        <li className=" mb-4">+4444-8888-48884</li>
+        <li className=" mb-8">+4444-8888-48884</li>
         
       </ul>
 
