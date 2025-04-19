@@ -8,6 +8,7 @@ import { useState } from "react";
 import Profile from "./componnets/Profile";
 import Home from "./pages/Home";
 import CountDown from "./componnets/CountDown";
+import Footer from "./componnets/sharedComponents/Footer";
 
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -28,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="overflow-x-hidden  relative max-w-[1440px] mx-auto ">
+    <div className="overflow-x-hidden  relative  mx-auto ">
       
       {isCartOpen && (
         <ShoppingCart isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
@@ -50,6 +51,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

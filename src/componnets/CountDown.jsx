@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from "react";
-const CountDown = () => {
+const CountDown = ({duration}) => {
   const [timer, setTimer] = useState({
     days: "",
     hours: "",
@@ -7,7 +7,7 @@ const CountDown = () => {
     secs: "",
   });
 
-  const time = 5;
+  const time = duration;
   let totalSeconds = time * 24 * 60 * 60;
 
   function countdown() {

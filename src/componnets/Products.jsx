@@ -43,7 +43,7 @@ const Products = ({ formData }) => {
   };
 
   return (
-    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-6 ">
+    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-16 lg:mb-20">
       <RedDiv children={"Our Prodcuts"}/>
       <div className="flex  justify-between items-center mb-16">
         <h2 className="md:text-4xl font-medium ">Explore Our Products</h2>

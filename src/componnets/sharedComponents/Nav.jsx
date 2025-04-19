@@ -8,7 +8,7 @@ import LikeBtn from "../../Btns/LikeBtn";
 const Nav = (props) => {
 
   return (
-    <nav className=" max-w-[1440px] py-2 px-2  pt-4 w-full 2xl:w-[80vw] mx-auto flex flex-col lg:flex-row gap-y-8 md:items-center lg:justify-between justify-center mb-6">
+    <nav className=" max-w-[1440px] py-2  px-2  pt-8 w-full 2xl:w-[80vw] mx-auto flex flex-col lg:flex-row gap-y-8 md:items-center lg:justify-between justify-center mb-6">
       <div>
         <h1 className="text-2xl font-bold text-center ">Exclusive</h1>
       </div>

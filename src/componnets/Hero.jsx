@@ -2,7 +2,7 @@ import React from "react";
 import HeroImage from "/hero.png"
 const Hero = () => {
   return (
-    <div className="mb-16 lg:mb-32 max-w-[1440px] py-2 px-2 w-full 2xl:w-[80vw] mx-auto grid lg:grid-cols-12  gap-4">
+    <div className="mb-16 lg:mb-20 max-w-[1440px] py-2 px-2 w-full 2xl:w-[80vw] mx-auto grid lg:grid-cols-12  gap-4">
       <div  className="lg:col-span-3 col-span-12 ">
         <ul className=" h-full grid grid-cols-2 sm:grid-cols-3  gap-3 lg:grid-cols-1  text-lg  w-full ">
             <li>Woman's Fashion</li>

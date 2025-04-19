@@ -20,10 +20,10 @@ const ShoeProducts = () => {
     const showAllProducts = ()=> setProducts(shoes)
 
   return (
-    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-16 lg:mb-32" >
+    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-16 lg:mb-20" >
         <RedDiv children={"Today's"} />
         <div className='flex items-center justify-between mb-6'>
-            <CountDown />
+            <CountDown duration={5}/>
             <ScrollBtn handleLeftClick={showFirst4} handleRightClick={showSecond4} />
         </div>
         <div className=" grid grid-cols-1 lg-grid-cols-2 xl:grid-cols-4 gap-6">

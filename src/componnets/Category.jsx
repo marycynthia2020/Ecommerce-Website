@@ -41,7 +41,7 @@ const Category = () => {
   };
 
   return (
-    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-16 lg:mb-32">
+    <div className=" max-w-[1440px] px-2 w-full 2xl:w-[80vw] mx-auto  mb-16 lg:mb-20">
       <RedDiv children={"Categories"} />
       <div className="flex items-center justify-between mb-6">
         <h2 className="md:text-4xl font-medium border-b">
