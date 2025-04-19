@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { FaRegHeart } from "react-icons/fa";
 
-const Love = () => {
+const LikeBtn = ({className}) => {
   const [styles, setStyles] = useState({
     color: "black",
   });
 
-  const toggleLove = () => {
+  const toggleLike = () => {
     setStyles(prev => {
       if (prev.color === "black") {
         return {
@@ -23,10 +23,10 @@ const Love = () => {
   };
 
   return (
-    <div className="absolute right-5 ">
-      <FaRegHeart style={styles} onClick={toggleLove} />
+    <div className= {className}>
+      <FaRegHeart style={styles} onClick={toggleLike} />
     </div>
   );
 };
 
-export default Love;
+export default LikeBtn;
